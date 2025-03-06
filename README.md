@@ -1,6 +1,6 @@
-# python-Diffusion-limited_aggregation
+# DLA Probability Calculation
 
-The important part of this repo is the algorithm for calculating the probabilities for where the new Tile could end up going. The approach scales quite well and could be cached for faster usage in the future, greatly accelerate the generation of large Patterns, without sacrificing any accuracy compared to calculating it normally. Going in reverse would be very usefull, but I haven't figured out how to do that yet.
+The important part of this repo is the algorithm for calculating the probabilities for where the new Tile could end up going. The approach scales quite well and could be cached for faster usage in the future, greatly accelerating generation of large Patterns, without sacrificing any accuracy compared to calculating it normally. Going in reverse would be very useful, but I haven't figured out how to do that yet.
 
 All important Logic is in the marcher.py file.
 
